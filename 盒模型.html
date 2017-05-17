@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>盒模型</title>
+	<style>
+		*{
+			padding: 0;
+			margin: 0;
+		}
+
+		div{
+			margin: 200px auto;
+			width: 200px;
+			height: 200px;
+			background-color: #666;
+			border: 10px solid red;
+			box-sizing: border-box;
+			/*默认值 content-box*/
+			padding: 50px;
+		}
+	</style>
+</head>
+<body>
+	<!-- IE盒模型只会出现在IE5版本和IE6+的怪异模式中。 设置的宽度，是包含了内容，padding和border的-->
+	<div></div>
+</body>
+</html>
