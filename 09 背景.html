@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+			padding: 0;
+			margin: 0;
+		}
+
+		div{
+			margin: 200px auto;
+			width: 200px;
+			height: 100px;
+			border:10px dashed red;
+			padding: 10px;
+			background:url(images/border.png) no-repeat;
+			background-color: #333;
+			background-size: contain;
+			/*背景图像的尺寸大小
+			contain cover 2个值，一个原图会显示全，一个会显示不全*/
+			background-origin: border-box;
+			/*  背景图像的起点
+			padding-box：从padding区域（含padding）开始显示背景图像。 
+			border-box： 从border区域（含border）开始显示背景图像。 
+			content-box： 从content区域开始显示背景图像。  */
+
+			background-clip: padding-box;
+			/*背景图像向外裁剪的区域*/
+		}
+	</style>
+</head>
+<body>
+	<div class="">
+		
+	</div>
+</body>
+</html>
